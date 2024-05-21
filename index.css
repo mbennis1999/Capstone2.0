@@ -1,0 +1,97 @@
+.navbar{
+  display:block;
+  align-items: center;
+  background-color: #2a2828;
+  color: #fff;
+  padding: 20px 90px;
+  border: 5px solid #333;
+  border-radius: 20px;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+button{
+  background-color: #adaeb7;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.nationalParksParagraph{
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid #333;
+  border-radius: 100px;
+  color: #000000;
+  font-size: 13px;
+  font-weight:lighter;
+}
+
+.mountainsParagraph{
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid #333;
+  border-radius: 30px;
+  color: #000000;
+  font-size: 13px;
+  font-weight:lighter;
+}
+
+.nationalParksHeading{
+  text-align: center;
+}
+
+.mountainsHeading{
+  text-align: center;
+}
+
+form {
+  border: 4px solid #f1f1f1;
+}
+
+/*subscribe to our newsletter*/
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #0c0d0d;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+
+
+

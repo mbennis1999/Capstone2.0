@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Outdoor Adventures</title>
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="national-parks.html">National Parks</a></li>
+      <li><a href="mountains.html">Mountains Information</a></li>
+    </ul>
+  </nav>
+  <h1 class="nationalParksHeading">National Parks</h1>
+  <img src="images/Park.webp" alt="park">
+
+  <p class="nationalParksParagraph">
+    National parks are protected areas established by governments to preserve natural environments, wildlife, and cultural heritage. They aim to:
+      Conserve biodiversity and natural resources.
+      Provide recreation opportunities like hiking and camping.
+      Educate the public about nature and history.
+      Support scientific research on natural processes.
+      Preserve cultural sites within their boundaries.
+    Managed by governmental agencies, national parks ensure the protection and sustainability of these valuable resources.
+  </p>
+  <button onclick="location.href='national-parks.html'">Click Here To Learn More</button>
+
+  <h1 class="mountainsHeading">Mountains Information Page</h1>
+  <img src="images/mountain.jpg" alt="mountains">
+
+  <p class="mountainsParagraph">
+    Mountains are large landforms that rise prominently above their surroundings, 
+    typically having steep slopes and significant height differences from their base to their peak. 
+    They are formed through geological processes such as tectonic plate movements, volcanic activity, and erosion. 
+    Mountains can be found on every continent and are often part of mountain ranges.
+    They influence climate, weather patterns, and provide habitats for diverse flora and fauna.
+  </p>
+  <button onclick="location.href='mountains.html'">Click Here To Learn More</button>
+
+  <form action="action_page.php">
+    <div class="container">
+      <h1>Subscribe to our Newsletter</h1>
+    </div>
+
+    <div class="container" style="background-color:white">
+      <input type="text" placeholder="Name" name="name" required>
+      <input type="text" placeholder="Email address" name="mail" required>
+      <label>
+        <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+      </label>
+    </div>
+
+    <div class="container">
+      <input type="submit" value="Subscribe">
+    </div>
+  </form>
+</body>
+</html>
