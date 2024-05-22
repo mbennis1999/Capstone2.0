@@ -14,16 +14,44 @@
       <li><a href="mountains.html">Mountains Information</a></li>
     </ul>
   </nav>
-  <h1 class="nationalParksHeading">National Parks</h1>
-  <input type="text" id="searchInput" placeholder="Search for a park...">
-  <div id="parkList"></div>
+  <main>
+
+    <h1 class="nationalParksHeading">National Parks</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Park Name</th>
+          <th>Address</th>
+          <th>City</th>
+          <th>State</th>
+          <th>Zip Code</th>
+          <th>Phone</th>
+        </tr>
+      </thead>
+    </table> 
+
+    <div id=""><label for="locationDropdown">Location</label>
+      <select id="locationDropdown" >
+        <option value="choose">Choose one..</option>
+    </select>
+</div>
+
+<div id=""><label for="parkTypeDropdown">Park Type</label><select id="parkTypeDropdown" >
+  <option value="choose">Choose one..</option>
+</select>
+</div>
+<button>Search</button>
+
+
+  
+    
+  </main>
   <footer>
     <p>&copy; 2024 Outdoor Adventures</p>
   </footer>
   <script src="scripts/locationData.js"></script>
   <script src="scripts/parkTypeData.js"></script>
   <script src="scripts/nationalParkData.js"></script>
-
   <script src="scripts/national-parks.js"></script>
 </body>
 </html>
