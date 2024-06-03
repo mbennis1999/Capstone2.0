@@ -150,8 +150,8 @@ function init() {
       `;
       resultsTableBody2.appendChild(row);
 
-     }
-     } else {
+  }
+  } else {
         let row = document.createElement("tr");
         row.innerHTML = "No Results Found"
         resultsTableBody2.appendChild(row);
